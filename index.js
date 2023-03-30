@@ -6,6 +6,7 @@ const init = async () => {
 
     const catImage = document.createElement("img");
     catImage.src = chrome.runtime.getURL("images/black_cat.jpeg");
+    catImage.className = "cat-image";
 
     div.appendChild(catImage);
     body.appendChild(div);

@@ -1,0 +1,12 @@
+#cat-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10000;
+    width: 50px;
+}
+
+.cat-image {
+    width: 80px;
+    height: auto;
+}
