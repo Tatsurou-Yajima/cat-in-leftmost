@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Cat in Leftmost",
+    "version": "1.0",
+    "description": "ブラウザの左下で猫を飼うことができる拡張機能です",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "/index.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "/images/*"
+            ],
+            "matches": [
+                "https://*/*"
+            ]
+        }
+    ]
+}
