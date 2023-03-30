@@ -1,9 +1,8 @@
 #cat-image {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     z-index: 10000;
-    width: 50px;
 }
 
 .cat-image {
