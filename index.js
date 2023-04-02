@@ -11,12 +11,17 @@ const init = async () => {
     div.appendChild(catImage);
     body.appendChild(div);
 
-    catImage.addEventListener("click", () => {
-        catImage.src = chrome.runtime.getURL("images/black_cat.gif");
+    let timerId;
 
-        setTimeout(function () {
+    catImage.addEventListener("click", () => {
+        const randomNum = Math.floor(Math.random() * 2);
+        const randomImage = randomNum === 0 ? "images/black_cat.gif" : "images/black_cat_stretches.gif";
+        catImage.src = chrome.runtime.getURL(randomImage);
+
+        clearTimeout(timerId);
+        timerId = setTimeout(function () {
             catImage.src = chrome.runtime.getURL("images/black_cat.png");
-        }, 3000);
+        }, 5000);
     });
 };
 
