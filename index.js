@@ -1,24 +1,23 @@
 const init = async () => {
-    const body = document.getElementsByTagName("body")[0];
+    const body = document.body;
 
     const div = document.createElement("div");
-    div.id = "cat-image";
+    div.setAttribute("id", "cat-image-wrapper");
 
     const catImage = document.createElement("img");
     catImage.src = chrome.runtime.getURL("images/black_cat.png");
-    catImage.className = "cat-image";
+    catImage.classList.add("cat-image");
 
     div.appendChild(catImage);
     body.appendChild(div);
 
-    catImage.addEventListener("click", function () {
+    catImage.addEventListener("click", () => {
         catImage.src = chrome.runtime.getURL("images/black_cat.gif");
 
         setTimeout(function () {
             catImage.src = chrome.runtime.getURL("images/black_cat.png");
         }, 3000);
     });
-
 };
 
 init();
