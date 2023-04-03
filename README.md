@@ -1,12 +1,20 @@
 # cat-in-leftmost
 
-## Summary / 概要
+## Summary
 
 This is a Google Chrome extension that allows you to have a cat in the lower left corner of your browser.
 
 ブラウザの左下で猫を飼うことができる Google Chrome 拡張機能です。
 
 <img src="https://user-images.githubusercontent.com/44424270/229346316-faaa86eb-10ee-40c4-b6cf-3c8cbe74602d.gif" width="500px">
+
+## How to use
+
+Please refer to this article.
+
+こちらの記事を参照してください。
+
+https://qiita.com/Yajima_t/items/e1771276d73b24c8720c
 
 ## How to create a GIF image
 
@@ -17,5 +25,3 @@ This is a Google Chrome extension that allows you to have a cat in the lower lef
 For example, use the following services:
 
 https://www.unscreen.com/
-
-
