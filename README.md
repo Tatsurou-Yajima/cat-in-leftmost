@@ -6,7 +6,7 @@ This is a Google Chrome extension that allows you to have a cat in the lower lef
 
 ブラウザの左下で猫を飼うことができる Google Chrome 拡張機能です。
 
-<img src="https://user-images.githubusercontent.com/44424270/229346316-faaa86eb-10ee-40c4-b6cf-3c8cbe74602d.gif" width="500px">
+<img src="https://user-images.githubusercontent.com/44424270/229729160-7f0a6364-ea93-42fa-97e9-9b831810b853.gif" width="500px">
 
 ## How to use
 
